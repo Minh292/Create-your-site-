@@ -1,0 +1,94 @@
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #0288d1;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    z-index: 100;
+    border-radius: 4px;
+    transition: top 0.3s ease;
+  }
+  .skip-link:focus {
+    top: 10px;
+  }
+  
+  /* Body Background and Font */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation with Flexbox & Pastel Theme */
+  .nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0288d1;
+    padding: 15px 0;
+    list-style: none;
+    margin: 0;
+  }
+  .nav li {
+    margin: 0 20px;
+  }
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 6px 12px;
+    border-radius: 5px;
+  }
+  .nav a:hover {
+    background-color: #4dd0e1;
+    color: #003b5c;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Main Heading */
+  h1 {
+    text-align: center;
+    color: #0277bd;
+  }
+  
+  /* Images with Box Model and Pastel Border */
+  img {
+    border: 4px solid #b2ebf2;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.2s;
+  }
+  img:hover {
+    transform: scale(1.03);
+  }
+  .center-image {
+    display: block;
+    margin: 30px auto;
+    max-width: 80%;
+    height: auto;
+  }
+  
+  /* Grid Layout for Gallery */
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    padding: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-items: center; /* Căn giữa các ảnh trong ô grid */
+  }
+  
+  .grid-gallery img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+  }
+  
+  
